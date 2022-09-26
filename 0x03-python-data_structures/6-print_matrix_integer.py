@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
-        format_i = " ".join(["{:d}" for x in row])
-        print(format_i.format(*row))
+        format_i = " ".join(["{:d}" for x in i])
+        print(format_i.format(*i))
 
 
 
